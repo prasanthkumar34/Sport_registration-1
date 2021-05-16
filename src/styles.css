@@ -1,0 +1,111 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  border: 1px solid yellow;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 2px 2px #ccc;
+  width: 700px;
+  padding: 60px;
+  transform: translate(400px, 100px);
+}
+aside {
+  font-weight: 100px;
+}
+button {
+  border: 3px solid yellow;
+  border-radius: 50px 50px 50px 50px;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  padding: 8px;
+  transform: translate(600px, 0);
+}
+.card_head {
+  font-family: "Caveat", cursive;
+}
+.card_subhead {
+  color: gray;
+  font-family: "Caveat", cursive;
+  font-weight: 10;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+button:hover {
+  background-color: #ffff66;
+  color: white;
+}
+.alignment {
+  margin: 30px;
+  font-family: "Caveat", cursive;
+  color: black;
+  font-weight: 100;
+  font-size: 14px;
+  margin-left: 100px;
+}
+.alignment b {
+  margin-right: 110px;
+}
+
+input[type="radio"] {
+  font-family: "Caveat", cursive;
+  margin: 10px;
+}
+input[type="radio"]:checked:after {
+  width: 12px;
+  height: 12px;
+  border-radius: 15px;
+  top: -1px;
+  left: -3px;
+  position: relative;
+  background-color: #ffa500;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+.check {
+  margin: 30px;
+  font-family: "Caveat", cursive;
+  color: black;
+  font-weight: 100;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.check b {
+  margin-right: 110px;
+}
+input[type="checkbox"] {
+  font-family: "Caveat", cursive;
+  margin: 10px;
+}
+input[type="checkbox"]:checked:after {
+  width: 12px;
+  height: 12px;
+
+  top: -1px;
+  left: -3px;
+  position: relative;
+  background-color: #ffa500;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+.skill_side {
+  transform: translate(500px, -188px);
+}
+.select_clss button {
+  border: 1px solid yellow;
+  width: 130px;
+  align-content: center;
+  height: 30px;
+  color: black;
+  margin-right: 30px;
+  transform: translate(190px);
+}
